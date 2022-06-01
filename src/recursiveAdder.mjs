@@ -6,14 +6,14 @@ import { stdin as input, stdout as output } from 'node:process';
  * 
  * First arguent passed in is multiplied by the thrid argument and if the answer is less than 
  * the second argument it call the same function recursively until the answer is greater than the second arguent passed in.
- * @param {number} number - Initial nuber passed in
+ * @param {number} factor - Initial nuber passed in
  * @param {number} target - Target for multiplication
- * @param {number} count - counter for multiplication
+ * @param {number} counter - counter for multiplication
  * @returns sum of multiplications as an integer
  */
-const recursiveAdder = (number, target, count = 1) => {
-  const multiplication = number * count++;
-  return multiplication <= target ? multiplication + recursiveAdder(number, target, count) : 0;
+const recursiveAdder = (factor, target, counter = 1) => {
+  const multiplication = factor * counter;
+  return multiplication <= target ? multiplication + recursiveAdder(factor, target, ++counter) : 0;
 }
 
 const main = async () => {
