@@ -2,5 +2,8 @@
   "devDependencies": {
     "prettier": "^2.6.2",
     "prettier-standard": "^16.4.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
