@@ -1,6 +1,26 @@
 {
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "This repository contains trialing various javascript concepts and techniques arranged in to folders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "prettier": "^2.6.2",
     "prettier-standard": "^16.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joedunu/js-playground.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Anuradha Dunuhappawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joedunu/js-playground/issues"
+  },
+  "homepage": "https://github.com/joedunu/js-playground#readme"
 }
